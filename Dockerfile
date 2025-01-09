@@ -22,7 +22,7 @@
 FROM ubuntu:jammy
 
 ARG BUILD_PACKAGES="build-essential cmake gfortran python3-dev linux-libc-dev" \
-    ECCODES_VER=2.36.0
+    ECCODES_VER=2.39.0
 
 ENV DEBIAN_FRONTEND="noninteractive" \
     TZ="Etc/UTC" \
